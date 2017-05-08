@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Trademarkify © ™ ®</title>
+  <meta name="description" content="Trademarkify">
+  <meta name="author" content="Rob Hoefakker">
+
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to the Tademarkify demo page</h1>
+        <p>This page demostrates the workings of the Trademarkify® jQuery plugin.<span>®</span></p>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="../trademarkify.js"></script>
+  <script>
+    jQuery('body').trademarkify({
+        icon: "®",
+        script: "sup"
+    });
+  </script>
+</body>
+</html>
